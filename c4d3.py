@@ -1,7 +1,8 @@
 '''
 input dois numeros e some seu valor
 '''
-primeiro_numero = int(input('Primeiro Número: '))
-segundo_numero = int(input('Segundo Número: '))
+n1 = int(input('Primeiro Número: '))
+n2 = int(input('Segundo Número: '))
+soma = n1 + n2
 
-print('A soma é',primeiro_numero + segundo_numero)
+print('A soma é:',soma)
